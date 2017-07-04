@@ -1,0 +1,198 @@
+html, body {
+  background-image: url("/sat.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+html, body, header, nav, ul, li, div, h1, p {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+header {
+  display: block;
+  background: rgba(50, 50, 50, .8);
+}
+
+header h1 {
+  display: block;
+  color: rgb(228, 228, 228);
+  text-align: center;
+  font-size: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: rgb(207, 177, 191);
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+}
+
+div.ads {
+  height: 150px;
+}
+
+div.search-parent {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+div.search-div {padding: 2px;}
+div.search-div input {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  display: inline;
+  box-sizing: border-box;
+}
+
+footer {
+  background: rgb(13, 13, 13);
+  padding: 30px 0;
+}
+
+footer p, footer label {
+  padding: 5px 0;
+  padding:0 20px;
+  font-size: 15px;
+  color:rgb(205, 205, 205);
+}
+footer a {
+  color:rgb(205, 205, 205);
+  padding: 0 30px;
+  font-size: 14px;
+}
+
+.loading {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  color: rgba(50, 50, 50, .8);
+  z-index: 999;
+  font-size: 25px;
+}
+h3.ttitle{
+  font-size: 20px;
+  text-align: center;
+}
+div.table{
+  background: rgba(195, 195, 195, 0.32);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+div.table table{
+
+}
+div.table th{
+  color: rgb(57, 57, 57);
+  text-align: justify;
+}
+
+form{
+  text-align: center;
+}
+
+label{
+  font-style: 17px;
+  font-weight: bold;
+  display: block;
+  color: black;
+}
+
+input{
+  font-size: 17px;
+  display: block;
+  margin:30px 0;
+}
+button{
+  display: block;
+  font-size: 20px;
+}
+select,option{
+  display: block;
+  margin: 30px 0;
+  font-size: 17px;
+}
+
+
+
+
+.search-parent{
+    width: 100%;
+}
+.search-div{
+    width: 300px;
+    margin: 0 auto;
+}
+.search-div input{
+  width:100%;
+  line-height: 40px;
+  font-size:18px;
+  text-align:center;
+  border:2px solid gray;
+  margin: 0;
+}
+
+
+#livesearch{
+    display: none;
+    overflow-y: hidden;
+    position: absolute;
+    width: 304px;
+    max-height: 150px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 0;
+    box-sizing:border-box;
+    margin: 0;
+    font-size: 0;
+}
+
+#livesearch a{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+#livesearch a:hover{
+    color: rgba(22, 160, 133, 0.78);
+}
